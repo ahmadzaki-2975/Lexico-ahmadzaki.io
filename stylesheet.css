@@ -62,6 +62,7 @@ body{
     padding:20px 15px 50px 15px;
     margin-bottom:50px;
     border-radius: 5px;
+    border:5px solid white;
 }
 .card1 span{
     color:teal;
@@ -71,11 +72,21 @@ body{
     border-radius: 5px;
     float:right;
     margin-left: 10px;
+    box-shadow: 0 4px rgb(170, 170, 170, 0.8);
 }
 .card1 p{
     margin-top:5px;
 }
 .card1 li{
     font-weight: bold;
+}
+.card1 h2{
+    border-bottom: 1px solid black;
+}
+.source-code{
+    text-align: center;
+    margin-bottom:10px ;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255, 0.7);
 }
 
